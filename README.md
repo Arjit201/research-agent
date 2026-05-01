@@ -173,36 +173,6 @@ Or use the frontend's "Ingest Documents" button.
 
 ---
 
-## Deployment
-
-### Deploy to Railway (recommended — free tier)
-
-```bash
-# Install Railway CLI
-npm i -g @railway/cli
-
-railway login
-railway init
-railway up
-```
-
-Set env vars in Railway dashboard: `OPENAI_API_KEY`, `TAVILY_API_KEY`
-
-### Deploy to Render
-
-1. Push to GitHub
-2. New Web Service → connect repo → set root to `backend/`
-3. Build command: `pip install -r requirements.txt`
-4. Start command: `uvicorn server:app --host 0.0.0.0 --port $PORT`
-5. Add env vars in Render dashboard
-
-### Deploy frontend to Vercel / Netlify
-
-Drop `frontend/index.html` into Vercel — it's a single static file.
-Update the `API` constant in the HTML to point to your deployed backend URL.
-
----
-
 ## Project Structure
 
 ```
