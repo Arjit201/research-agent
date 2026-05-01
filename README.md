@@ -68,7 +68,7 @@ User Query
 - **LangGraph** — stateful multi-node agent graph with conditional edges
 - **LangChain** — LLM abstraction, prompt templates, output parsers
 - **FAISS** — local vector store for semantic retrieval (no cloud dependency)
-- **Google Gemini 1.5 Flash** — free LLM for routing/grading/synthesis
+- **Google Gemini 2.5 Flash** — free LLM for routing/grading/synthesis
 - **Gemini Embedding-001** — free embeddings (same API key)
 - **DuckDuckGo Search** — free real-time web search, zero API key required
 - **FastAPI** — async REST API with SSE streaming support
